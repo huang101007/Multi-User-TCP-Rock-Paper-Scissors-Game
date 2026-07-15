@@ -20,6 +20,12 @@
   * **客戶端防呆：** 針對玩家輸入進行字串預處理（去除空白、轉小寫），若輸入非有效指令（rock/paper/scissors），會直接在客戶端攔截並要求重新輸入，避免傳送無效封包加重伺服器運算負擔。
   * **連線穩定性：** 系統全面導入 `try...except...finally` 錯誤捕捉架構。若發生網路不穩或玩家異常斷線，程式能輸出錯誤資訊而不致崩潰，並確保執行 `close()` 正確釋放 Socket 資源與 Port，讓伺服器能安全回到初始狀態等待下一次連線
 
+##多人猜拳畫面
+
+<img width="719" height="775" alt="他人電腦猜拳程式執行結果" src="https://github.com/user-attachments/assets/78ca5a29-e95e-43e8-bc86-64ca7182519e" />
+
+[總報告](https://drive.google.com/drive/u/0/folders/1fm2wWiu4sry78vS0imjbqRFu_LIK0KuX)
+
 ## 專案檔案說明
 * `server.py`: 基礎單人版伺服器程式，接收單一玩家連線並以隨機方式出拳對戰。
 * `client.py`: 玩家端程式，負責發起連線、發送出拳指令並接收即時賽況。
