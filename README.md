@@ -24,7 +24,7 @@
 
 <img width="719" height="775" alt="他人電腦猜拳程式執行結果" src="https://github.com/user-attachments/assets/78ca5a29-e95e-43e8-bc86-64ca7182519e" />
 
-[總報告]([https://drive.google.com/drive/u/0/folders/1fm2wWiu4sry78vS0imjbqRFu_LIK0KuX](https://drive.google.com/file/d/1uzxWsIaOAA_6AYhs8nNbbN_1Np691vLM/view?usp=drive_link)
+[總報告](https://drive.google.com/file/d/1uzxWsIaOAA_6AYhs8nNbbN_1Np691vLM/view?usp=drive_link)
 
 ## 專案檔案說明
 * `server.py`: 基礎單人版伺服器程式，接收單一玩家連線並以隨機方式出拳對戰。
